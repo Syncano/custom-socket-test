@@ -1,0 +1,31 @@
+name: my_tweet1
+description: Twitter integration
+author:
+  name: Maciek
+  email: maciek@synano.com
+icon:
+  name: icon_name
+  color: red
+endpoints:
+  my_endpoint_2:
+    script: script_endpoint_21
+
+  my_endpoint_1:
+    POST:
+      script: script_endpoint_31
+    GET:
+      script: script_endpoint_11
+
+dependencies:
+  scripts:
+    script_endpoint_21:
+      runtime_name: python_library_v5.0
+      file: scripts/script2.py
+
+    script_endpoint_11:
+      runtime_name: python_library_v5.0
+      file: scripts/script1.py
+
+    script_endpoint_31:
+      runtime_name: python_library_v5.0
+      file: scripts/script.py

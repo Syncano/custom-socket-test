@@ -2,7 +2,7 @@ name: my_tweet1
 description: Twitter integration
 author:
   name: Maciek
-  email: maciek@synano.com
+  email: maciek@syncano.com
 icon:
   name: icon_name
   color: red

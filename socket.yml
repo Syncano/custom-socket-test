@@ -33,3 +33,16 @@ dependencies:
     script_endpoint_31:
       runtime_name: python_library_v5.0
       file: scripts/script.py
+  classes:
+    country:
+      schema:
+        - name: name
+          type: string
+        - name: topLevelDomain
+          type: string
+        - name: capital
+          type: string
+        - name: alpha2Code
+          type: string
+        - name: alpha3Code
+          type: string

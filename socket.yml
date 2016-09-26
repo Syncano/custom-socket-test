@@ -6,10 +6,15 @@ author:
 icon:
   name: icon_name
   color: red
+
 config:
-  - name: api_key_custom
-    description: An api key for custom integration
-  - name: APP_NAME
+  constants:
+    name: APP_NAME
+  prompt:
+    api_key_custom:
+      type: sting
+      description: an Api Key for third party service
+
 endpoints:
   my_endpoint_2:
     script: script_endpoint_21

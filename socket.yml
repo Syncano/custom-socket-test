@@ -8,12 +8,13 @@ icon:
   color: red
 
 config:
-  constants:
-    name: APP_NAME
-  prompt:
-    api_key_custom:
-      type: sting
-      description: an Api Key for third party service
+   secret_key:
+      value: some_value
+   user_key_with_default:
+      prompt: true
+      value: default value
+   user_key:
+      prompt: true
 
 endpoints:
   my_endpoint_2:
